@@ -4,8 +4,8 @@ import { BsLinkedin, BsFacebook, BsGithub } from "react-icons/bs";
 
 import technologies from "../../assets/images/technologies.png";
 const LandingSection = () => {
-  const handleDownloadResume = () => {
-    const resumeFile = "/public/Resume - Abdullah Nazmus Sakib.pdf";
+  /* const handleDownloadResume = () => {
+    const resumeFile = "/Resume - Abdullah Nazmus Sakib.pdf";
 
     // Create a link element
     const downloadLink = document.createElement("a");
@@ -18,7 +18,7 @@ const LandingSection = () => {
     downloadLink.click();
 
     document.body.removeChild(downloadLink);
-  };
+  }; */
   return (
     <div
       className="h-screen banner grid md:grid-cols-2 gap-6 px-5 md:px-10"
@@ -76,13 +76,16 @@ const LandingSection = () => {
               <BsFacebook className="text-3xl" />
             </a>
           </div>
-          <button
-            onClick={handleDownloadResume}
-            className="flex gap-2 items-center bg-[#D9DBE9] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300"
-          >
-            <AiOutlineDownload />
-            Resume
-          </button>
+          <div className="inline-block">
+            <a
+              href="../../../public/Resume - Abdullah Nazmus Sakib.pdf"
+              download="Resume - Abdullah Nazmus Sakib.pdf"
+              className=" flex gap-2 items-center bg-[#D9DBE9] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300"
+            >
+              <AiOutlineDownload />
+              Resume
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex justify-center items-center">
