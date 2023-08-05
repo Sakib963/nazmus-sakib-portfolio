@@ -78,7 +78,7 @@ const LandingSection = () => {
           </div>
           <div className="inline-block">
             <a
-              href="../../../public/Resume - Abdullah Nazmus Sakib.pdf"
+              href="https://nazmus-sakib-portfolio-7853a.web.app/Resume%20-%20Abdullah%20Nazmus%20Sakib.pdf"
               download="Resume - Abdullah Nazmus Sakib.pdf"
               className=" flex gap-2 items-center bg-[#D9DBE9] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300"
             >
