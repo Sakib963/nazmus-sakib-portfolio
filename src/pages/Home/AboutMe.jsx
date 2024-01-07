@@ -18,12 +18,12 @@ const AboutMe = () => {
           About Me
         </h2>
       </div>
-      <div className="my-10 grid grid-cols-1 md:grid-cols-3 md:gap-10 space-y-5 md:space-y-0">
-        <div className="flex items-center justify-center md:justify-end">
+      <div className="my-10 grid grid-cols-1 lg:grid-cols-3 md:gap-10 space-y-5 md:space-y-0">
+        <div className="flex items-center justify-center lg:justify-end">
           <img src={profilePic} alt="Profile Picture of Sakib" />
         </div>
         <div className="col-span-2">
-          <div className="md:w-3/4 space-y-3">
+          <div className="lg:w-3/4 space-y-3">
             <p>
               Hey, My name is Abdullah Nazmus Sakib, from Dhaka, Bangladesh. I
               take pride in having completed my BSc in Computer Science and
@@ -62,20 +62,23 @@ const AboutMe = () => {
               </div>
               <div
                 className={
-                  activeTab === "experience" ? "p-4 space-y-1" : "hidden"
+                  activeTab === "experience" ? "p-4 space-y-2" : "hidden"
                 }
               >
-                <h3 className="text-xl font-bold">
-                  Junior MERN Stack Developer
-                </h3>
-                <h5 className="text-lg">Ovigo</h5>
-                <p>June 2023 - present</p>
-                <p>
-                  Analyze project needs and make plans to finish tasks on time,
-                  work on both the front-end and back-end of projects, and
-                  actively participate in scrum meetings to collaborate and
-                  communicate effectively.
-                </p>
+                <div>
+                  <h3 className="text-lg font-bold">
+                    Junior Software Engineer
+                  </h3>
+                  <h5 className="text-lg">Celloscope Ltd.</h5>
+                  <p>September 2023 - Present</p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold">
+                    Junior MERN Stack Developer
+                  </h3>
+                  <h5 className="text-lg">Ovigo</h5>
+                  <p>June 2023 - August 2023</p>
+                </div>
               </div>
               <div
                 className={

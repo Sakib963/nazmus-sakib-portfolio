@@ -42,9 +42,9 @@ const Projects = () => {
       </div>
 
       {/* Projects Container */}
-      <div className="grid md:grid-cols-3 gap-6 md:w-3/4 mx-auto">
+      <div className="grid lg:grid-cols-3 gap-6 md:w-3/4 mx-auto">
         {/* Card 1: Elegant Edge */}
-        <div className="border border-gray-400 rounded-md bg-white">
+        <div className="border border-gray-400 rounded-md bg-[#D9DBE9] shadow-md">
           <div className="w-full">
             <img
               src={elegantEdgeBanner}
@@ -58,7 +58,7 @@ const Projects = () => {
             </h3>
             <p>
               Elegant Edge is a fashion design school that offers short classes
-              as a summer camp school.
+              as a summer camp school. That covers course enrollment.
             </p>
             <div className="space-y-2 md:space-y-0 md:space-x-2">
               <div className="badge bg-black text-white">MERN</div>
@@ -68,17 +68,17 @@ const Projects = () => {
               <div className="badge bg-black text-white">Axios</div>
               <div className="badge bg-black text-white">React Query</div>
             </div>
-            <div className="pt-5 md:flex justify-between gap-6 space-y-2 md:space-y-0">
+            <div className="pt-5 2xl:flex justify-between gap-6 space-y-2 2xl:space-y-0">
               <button
                 onClick={elegantEdgeLiveSite}
-                className="flex gap-2 items-center justify-center bg-[#D9DBE9] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
+                className="flex gap-2 items-center justify-center bg-[#f0f1f5] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
               >
                 <LiaShareSolid />
                 Live Site
               </button>
               <button
                 onClick={elegantEdgeRepo}
-                className="flex gap-2 items-center justify-center bg-[#D9DBE9] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
+                className="flex gap-2 items-center justify-center bg-[#f0f1f5] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
               >
                 <PiGithubLogoThin />
                 GitHub Repo
@@ -87,7 +87,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Card 2: Travel Stay */}
-        <div className="border border-gray-400 rounded-md bg-white">
+        <div className="border border-gray-400 rounded-md bg-[#D9DBE9] shadow-md">
           <div className="w-full">
             <img
               src={travelStayBanner}
@@ -110,17 +110,17 @@ const Projects = () => {
               <div className="badge bg-black text-white">Axios</div>
               <div className="badge bg-black text-white">React Query</div>
             </div>
-            <div className="pt-5 md:flex justify-between gap-6 space-y-2 md:space-y-0">
+            <div className="pt-5 2xl:flex justify-between gap-6 space-y-2 2xl:space-y-0">
               <button
                 onClick={travelStayLiveSite}
-                className="flex gap-2 items-center justify-center bg-[#D9DBE9] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
+                className="flex gap-2 items-center justify-center bg-[#f0f1f5] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
               >
                 <LiaShareSolid />
                 Live Site
               </button>
               <button
                 onClick={travelStayRepo}
-                className="flex gap-2 items-center justify-center bg-[#D9DBE9] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
+                className="flex gap-2 items-center justify-center bg-[#f0f1f5] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
               >
                 <PiGithubLogoThin />
                 GitHub Repo
@@ -129,7 +129,7 @@ const Projects = () => {
           </div>
         </div>
         {/* Card 3: Superfinity */}
-        <div className="border border-gray-400 rounded-md bg-white">
+        <div className="border border-gray-400 rounded-md bg-[#D9DBE9] shadow-md">
           <div className="w-full">
             <img
               src={superfinityBanner}
@@ -150,17 +150,17 @@ const Projects = () => {
               <div className="badge bg-black text-white">DaisyUI</div>
               <div className="badge bg-black text-white">Swiper</div>
             </div>
-            <div className="pt-5 md:flex justify-between gap-6 space-y-2 md:space-y-0">
+            <div className="pt-5 2xl:flex justify-between gap-6 space-y-2 2xl:space-y-0">
               <button
                 onClick={superfinityLiveSite}
-                className="flex gap-2 items-center justify-center bg-[#D9DBE9] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
+                className="flex gap-2 items-center justify-center bg-[#f0f1f5] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
               >
                 <LiaShareSolid />
                 Live Site
               </button>
               <button
                 onClick={superfinityRepo}
-                className="flex gap-2 items-center justify-center bg-[#D9DBE9] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
+                className="flex gap-2 items-center justify-center bg-[#f0f1f5] px-4 py-2 rounded-md transition ease-in-out delay-150 hover:scale-95 hover:bg-[#d4d5de] duration-300 w-full"
               >
                 <PiGithubLogoThin />
                 GitHub Repo
